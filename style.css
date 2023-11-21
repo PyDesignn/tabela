@@ -1,0 +1,54 @@
+:root {
+    --background-color: #6a5da5;
+    --blue-text:#0000d6;
+    --background-color-th:#ffc7b1;
+    --background-color-dni:#d6ceff;
+    --green:#00e600;
+}
+
+table {
+    width: 70%;
+    position: relative;
+}
+
+table, tr, td, th {
+    border: 2px solid var(--background-color);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    position: relative; /* Dodaj position: relative; */
+}
+
+th {
+    background-color: var(--background-color-th);
+}
+
+.dni {
+    background-color: var(--background-color-dni);
+}
+
+p {
+    border-bottom: 1px solid var(--background-color);
+    margin: 0px;
+}
+
+.blue_text {
+    color: var(--blue-text);
+}
+
+.plus {
+    border-bottom: none;
+    color: var(--green);
+    font-size: 20px;
+    position: absolute; /* Zmiana na absolute */
+    margin-top:10px;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    float:right
+}
+.text, .blue_text{
+    top:0;
+}
